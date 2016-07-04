@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'alex_brush';
+    src: url('AlexBrush-Regular.ttf');
+}
+
+html ,body
+{
+    height: 100%;
+}
+
+body
+{
+  background-image: url("fond-site.jpg");
+  margin: 0;  
+}
+
+.container
+{
+    display: flex;
+    height: 100%;
+}
+
+header
+{
+    width: 100%;  
+}
+    
+nav
+{
+    background-image: url("Fond-gris.jpg");
+    width: 10%;
+    border-radius: 15px;
+    height: 100%;   
+}
+
+@media all and (max-width: 1024px)
+{
+    nav
+    {
+        display: none;
+    }
+}
+
+section
+{
+   display: flex;
+   justify-content: space-around;  
+}
+
+@media all and (max-width: 1024px)
+{
+    section
+    {
+      
+      flex-direction: column;
+    }
+}
+
+h1 
+{
+    text-shadow: 3px 3px 3px black;
+    text-align: center;    
+}
+
+h2
+{
+    font-family: arial;
+}
+
+.cv
+{
+    color: white;  
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+a
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.sousTitre
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'alex_brush';
+    font-size: 30px;
+}
+
+article
+{
+    padding: 20px;
+}
+
+.titre
+{
+    width: 100%;
+}
